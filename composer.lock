@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fcc32b5697a342d272b948a1439e9406",
+    "content-hash": "84e4a90b6a9860968b8d1210457faeb3",
     "packages": [
+        {
+            "name": "cast/heroku",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/windlace/heroku.git",
+                "reference": "abbe0f9bac4dfd1118482b9c0308a6015d955767"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/windlace/heroku/zipball/abbe0f9bac4dfd1118482b9c0308a6015d955767",
+                "reference": "abbe0f9bac4dfd1118482b9c0308a6015d955767",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cast\\Heroku\\HerokuServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cast\\Heroku\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "For Laravel on Heroku.",
+            "keywords": [
+                "heroku",
+                "laravel"
+            ],
+            "time": "2018-11-06T06:06:15+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
